@@ -5,12 +5,11 @@
   "name": "1만 시간의 법칙!",
   "short_name": "시간의 법칙",
   "lang": "ko",
-  "theme_color": "transparent",
-  "background_color": "transparent",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "orientation": "any",
   "scope": "/",
   "start_url": "https://younhoso.github.io/pwatest/",
-  "prefer_related_applications": "false",
   "icons": [
     {
       "src": "images/windows11/StoreLogo.scale-100.png",

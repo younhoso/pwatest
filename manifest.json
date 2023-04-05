@@ -16,6 +16,26 @@
     {
       "icons": [
         {
+          "src": "images/windows11/StoreLogo.scale-100.png",
+          "sizes": "50x50"
+        },
+        {
+          "src": "images/windows11/StoreLogo.scale-125.png",
+          "sizes": "63x63"
+        },
+        {
+          "src": "images/windows11/StoreLogo.scale-150.png",
+          "sizes": "75x75"
+        },
+        {
+          "src": "images/windows11/StoreLogo.scale-200.png",
+          "sizes": "100x100"
+        },
+        {
+          "src": "images/windows11/StoreLogo.scale-400.png",
+          "sizes": "200x200"
+        },
+        {
           "src": "images/android/android-launchericon-512-512.png",
           "sizes": "512x512"
         },

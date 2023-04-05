@@ -12,17 +12,14 @@
     <title>1만 시간의 법칙</title>
     <script>
         if (typeof navigator.serviceWorker !== 'undefined') {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker.register('pwabuilder-sw.js').then(
-                    function(registration) {
-                        console.log("ServiceWorker :", registration.scope)
-                    }
-                ),
-                function (err){
-                    console.log("ServiceWorker err:", err)
-                }
-            })
-        };
+            navigator.serviceWorker.register('pwabuilder-sw.js')
+        }
+
+        async function requestBackgroundSync() {
+            const registration = await navigator.serviceWorker.ready;
+            await registration.sync.register('pwabuilder-sw.js');
+        }
+        requestBackgroundSync();
     </script>
 </head>
 <body>

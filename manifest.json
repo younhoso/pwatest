@@ -271,5 +271,26 @@
     "games",
     "news",
     "social"
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "img/screenshot.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "img/screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
+  "share_target": {
+    "action": "/shared-content-receiver/",
+    "method": "GET",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link"
+    }
+  }
 }

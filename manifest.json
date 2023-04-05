@@ -1,0 +1,32 @@
+{
+  "background_color": "#ffffff",
+  "description": "1만 시간의 법칙은 전문가가 되기 위해 몇일이 걸리는지 계산해 주는 서비스입니다.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "1만 시간의 법칙!",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "시간의 법칙",
+  "start_url": "https://younhoso.github.io/pwatest/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "img/favicon.ico"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "ko",
+  "display_override": [
+    "browser",
+    "standalone",
+    "minimal-ui",
+    "fullscreen",
+    "window-controls-overlay"
+  ]
+}
